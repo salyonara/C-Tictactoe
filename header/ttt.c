@@ -99,20 +99,3 @@ void Winner(int* status)
     }
 }
 
-void Win(int* b)
-{
-    for(int y = 0; y < 25; y++)
-    {
-        for(int x = 0; x < 5; x+2)
-        {
-            if(b[y * 5 + x] == X)
-            {
-                printf("X WINN\n");
-            }
-        }
-    }
-}
-
-/**
- * board[0] == X && board[2] == X && board[4] == X 
-*/
