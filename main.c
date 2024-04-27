@@ -11,8 +11,7 @@ int main()
     {
         REFRESH;
         draw(board);
-        Win(board);
-        //Winner(&key);
+        Winner(&key);
         if(key == 99)
         {
             break;
